@@ -26,10 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
 
-    - name: Installing dependencies
+    - name: Install dependencies
       run: npm install
 
-    - name: Starting Suhail-Md...
-      env:
-        SESSION_ID: 
+    - name: Start application
       run: npm start
