@@ -13,7 +13,7 @@ global.location="Imo, Nigeria"
 
 global.mongodb= process.env.MONGODB_URI || "null"
 global.allowJids= process.env.ALLOW_JID || "null" 
-global.blockJids= process.env.BLOCK_JID || "null"
+global.blockJids= process.env.BLOCK_JID || ""
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
